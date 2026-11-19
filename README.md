@@ -2,7 +2,7 @@
   <img src="greeting.svg" alt="Hello, Hallo, Namaste, Vanakkam, Namaskaram" width="640">
 </p>
 
-<h1 align="center">Hi👋, I'm Sreenivas</h1> <p align="center">
+<h1 align="center">Hi, I'm Sreenivas</h1> <p align="center">
 
 <p align="center">
   <strong>IBM Qiskit Advocate (Tier 1)</strong> · <strong>IBM-certified Qiskit v2.X Developer</strong><br>
