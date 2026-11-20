@@ -29,7 +29,7 @@ schools and community courses. Outside of quantum, I follow **Formula 1** 🏎�
 |---|---|
 | 🎓 **M.Sc. Optics and Photonics** | Karlsruhe Institute of Technology (KIT), Germany |
 | 🏅 **IBM Qiskit Advocate, Tier 1** | IBM Quantum community program |
-| 📜 **IBM Certified Quantum Developer, Qiskit v2.X** | IBM certification; verifiable on [Credly](https://www.credly.com/users/sreenivas-ramakrishnan/badges/credly) |
+| 📜 **IBM Certified Quantum Developer, Qiskit v2.X** | IBM certification; verifiable on [Credly](https://www.credly.com/badges/85571e4c-d4d8-457a-a7a6-e0abcf351f03) |
 
 *Details of professional roles are available on my [LinkedIn](https://www.linkedin.com/in/sreenivas-ramakrishnan).*
 
