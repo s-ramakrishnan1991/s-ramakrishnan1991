@@ -35,18 +35,21 @@ schools and community courses. Outside of quantum, I follow **Formula 1** 🏎�
 
 ## 🚀 Featured project
 
-### [3x3 Quantum Sudoku](https://github.com/s-ramakrishnan1991/3x3_quantum_sudoku)
-An interactive **Streamlit** web app that solves a 3×3 Sudoku with **Grover's search algorithm**, ported from a
-Jupyter notebook.
+### [Quantum Sudoku, in-circuit oracle](https://github.com/s-ramakrishnan1991/sudoku_grover)
+A second **Streamlit** app for the same puzzle where **the Grover oracle checks the Sudoku rule with gates inside the
+circuit**, instead of marking solutions found beforehand in Python. Each row pair gets a flag qubit, a sign flip on the
+three flags marks valid grids, and the flags are uncomputed. The oracle was verified against an independent rule checker
+on every basis state of 24 random puzzles.
 
-* **Two difficulty levels** (easy, medium) with clues at random positions on the grid
-* **Backend comparison study**: the same Grover circuit run on ideal Qiskit Aer, IBM FakeMarrakesh / FakeBoston /
-  FakeMiami, IQM FakeGarnet, a Google Willow noise model in Cirq and the Quantinuum H2 emulator, comparing success
-  probability, circuit size and two-qubit gate counts
-* **Optional real hardware and cloud simulators** with the user's own credentials: IBM Quantum, IQM and IonQ
-* Deployed on **Streamlit Community Cloud**, with a light/dark theme selector
+* **Seven noisy backends plus two ideal references** in a ranked "arena": IBM Marrakesh / Boston / Miami, IQM Garnet,
+  Google Willow calibration data, IonQ Forte (published fidelities) and Quantinuum H2, with the source of each noise
+  model documented
+* **Circuit diagram of one Grover iteration**, an interactive oracle probe, and the valid puzzle shown after each result
+* **Honest cost analysis**: the in-circuit oracle needs hundreds of two-qubit gates, so success on noisy devices drops sharply
+* Optional **IBM Quantum, IQM and IonQ** hardware tab with the user's own credentials, up to 8192 shots
+* Dependencies managed with **uv** (`pyproject.toml` and a lockfile)
 
-**Stack:** Python · Qiskit · Qiskit Aer · Cirq · pytket · Streamlit
+**Stack:** Python · Qiskit · Qiskit Aer · Cirq · pytket · Streamlit · uv
 
 ## 📚 Learning and community work
 
