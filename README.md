@@ -36,10 +36,9 @@ schools and community courses. Outside of quantum, I follow **Formula 1** 🏎�
 ## 🚀 Featured project
 
 ### [Quantum Sudoku, in-circuit oracle](https://github.com/s-ramakrishnan1991/sudoku_grover)
-A second **Streamlit** app for the same puzzle where **the Grover oracle checks the Sudoku rule with gates inside the
-circuit**, instead of marking solutions found beforehand in Python. Each row pair gets a flag qubit, a sign flip on the
-three flags marks valid grids, and the flags are uncomputed. The oracle was verified against an independent rule checker
-on every basis state of 24 random puzzles.
+A **Streamlit** app for the easy puzzle where **the Grover oracle checks the Sudoku rule with gates inside the
+circuit**. Each row pair gets a flag qubit; a sign flip on the three flags marks valid grids, and the flags are uncomputed. 
+The oracle was verified against an independent rule checker on every basis state of 24 random puzzles.
 
 * **Seven noisy backends plus two ideal references** in a ranked "arena": IBM Marrakesh / Boston / Miami, IQM Garnet,
   Google Willow calibration data, IonQ Forte (published fidelities) and Quantinuum H2, with the source of each noise
